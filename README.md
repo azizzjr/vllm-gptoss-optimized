@@ -4,7 +4,7 @@ High-performance Docker container for running GPT-OSS-20B with vLLM, optimized f
 
 ## Features
 
-- **Sub-400ms Response Times** - Optimized for real-time voice conversations
+- **Sub-150ms Response Times** - Optimized for real-time voice conversations
 - **NVIDIA B200 + mxfp4** - Native support for latest Blackwell architecture  
 - **GPT-OSS-20B Model** - Advanced reasoning capabilities for complex sales scenarios
 - **JupyterLab Included** - Built-in development environment
@@ -45,8 +45,8 @@ PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
 
 | Metric | Target | Hardware |
 |--------|--------|----------|
-| Response Time | 100-400ms | NVIDIA B200 |
-| Throughput | 200+ tokens/sec | 80GB+ VRAM |
+| Response Time | 50-150ms | NVIDIA B200 |
+| Throughput | 300+ tokens/sec | 80GB+ VRAM |
 | Memory Usage | ~14GB | mxfp4 quantization |
 | Model Size | GPT-OSS-20B | Advanced reasoning |
 
